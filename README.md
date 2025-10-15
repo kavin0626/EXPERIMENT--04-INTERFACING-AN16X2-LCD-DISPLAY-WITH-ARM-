@@ -199,7 +199,7 @@ while (1)
 }
 void lcd_display(){
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"kavinraj\n");
+	Lcd_string(&lcd,"KAVIN\n");
 }
 void SystemClock_Config(void)
 {
@@ -264,7 +264,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- <img width="885" height="702" alt="pmc4" src="https://github.com/user-attachments/assets/505bb3ae-6eb8-4fc6-894e-fcbd7b98e9ad" />
+ ![WhatsApp Image 2025-10-15 at 18 18 49_a778a0fd](https://github.com/user-attachments/assets/ba82ded9-7f5a-4229-b8b0-8233ac84f8f3)
 
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
