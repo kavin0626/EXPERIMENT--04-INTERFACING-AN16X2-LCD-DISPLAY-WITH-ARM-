@@ -199,7 +199,7 @@ while (1)
 }
 void lcd_display(){
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"KAVINRAJ\n");
+	Lcd_string(&lcd,"kavinraj\n");
 }
 void SystemClock_Config(void)
 {
