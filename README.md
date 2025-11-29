@@ -200,6 +200,7 @@ while (1)
 void lcd_display(){
 	Lcd_cursor(&lcd,0,1);
 	Lcd_string(&lcd,"KAVIN\n");
+    Lcd_string(&lcd,"Student\n");
 }
 void SystemClock_Config(void)
 {
